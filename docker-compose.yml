@@ -2,7 +2,14 @@ version: '3'
 
 services:
   nodejs:
-    #fill out the configuration here
+    image: node_app
+    container_name: node_app_container
+    restart: unless-stopped
+    ports:
+      - "80:8080"
+    build:
+      context: .
+      dockerfile: Dockerfile
     networks:
       - app-network
   
