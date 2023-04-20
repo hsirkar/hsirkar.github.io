@@ -1,0 +1,21 @@
+name: deployment workflow
+on: 
+#workflow_dispatch
+#   uncomment below lines during lecture
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }} 
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+              cd Lecture6
+              git pull
