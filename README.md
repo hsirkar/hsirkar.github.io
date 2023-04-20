@@ -18,4 +18,6 @@ Rose quartz: #B2A3B5
 
 GitHub Pages Site Link: [https://hsirkar.github.io](https://hsirkar.github.io/)
 
+TerpConnect Site Link: [https://terpconnect.umd.edu/rakrish/hsirkar.github.io](https://terpconnect.umd.edu/rakrish/hsirkar.github.io)
+
 Change made to website: Added a new social media link (Instagram)
