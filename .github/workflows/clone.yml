@@ -14,4 +14,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+              cd ../pub
               git clone https://github.com/hsirkar/hsirkar.github.io

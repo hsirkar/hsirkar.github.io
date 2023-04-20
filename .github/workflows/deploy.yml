@@ -17,5 +17,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              cd hsirkar.github.io
+              cd ../pub/hsirkar.github.io
               git pull
