@@ -15,4 +15,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
              unalias rm
-             rm -rf Lecture6
+             rm -rf hsirkar.github.io
